@@ -11,12 +11,24 @@
         body {
             position: relative;
         }
+
         #section1 {padding-top:50px;height:500px;color: #333; background-color: #f2f4f6;}
         #section2 {padding-top:10px;height:500px;color: #333; background-color: #ffffff;}
         #section3 {padding-top:10px;height:auto;color: #333; background-color: #f2f4f6;}
         #section4 {padding-top:10px;height:auto;color: #333; background-color: #ffffff;}
         #section5 {padding-top:10px;height:auto;color: #333; background-color: #f2f4f6;}
+
     </style>
+
+    <script>
+        !function ($) {
+            $(function(){
+                // carousel demo
+                $('#section1').carousel()
+            })
+        }(window.jQuery)
+    </script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -44,11 +56,58 @@
     </div>
 </nav>
 
+
+
+
+
+<!-- Carousel
+    ================================================== -->
+<div id="section1" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/slide-01.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Example headline.</h1>
+                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/slide-02.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <a class="btn btn-large btn-primary" href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/slide-03.jpg" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>One more for good measure.</h1>
+                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#section1" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#section1" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+
+
+<!--
 <div id="section1" class="container-fluid">
     <h1>首页轮播图</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
+-->
+
 <div id="section2" class="container-fluid">
     <h1>业务能力</h1>
     <ul>

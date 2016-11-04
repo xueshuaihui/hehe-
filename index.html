@@ -46,7 +46,28 @@
             background-color: transparent;
         }
 
+        .carousel img {
+            width: auto;
+            height: 500px;
+        }
 
+
+        /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+        @media (max-width: 979px) {
+            .carousel-inner>.item>img {
+                height: 500px;
+            }
+        }
+
+
+        @media (max-width: 767px) {
+            .carousel-inner>.item>img {
+                height: 300px;
+            }
+
+        }
 
 
     </style>

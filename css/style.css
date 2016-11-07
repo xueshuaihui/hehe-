@@ -16,7 +16,7 @@ body {
     color: #333;
     background-color: #f2f4f6;
     position: relative;
-    z-index: -4;
+    z-index: -1;
 }
 #about {
     padding-top:50px;
@@ -25,7 +25,7 @@ body {
     color: #333;
     background-color: #ffffff;
     position: relative;
-    z-index: -1;
+    z-index: -2;
 }
 #joinus {
     padding-top:50px;
@@ -34,7 +34,7 @@ body {
     color: #333;
     background-color: #f2f4f6;
     position: relative;
-    z-index: -2;
+    z-index: -3;
 }
 #contact {
     padding-top:50px;
@@ -43,7 +43,7 @@ body {
     color: #333;
     background-color: #ffffff;
     position: relative;
-    z-index: -3;
+    z-index: -4;
 }
 
 #about p {
@@ -85,11 +85,12 @@ body {
     display: block;
     width: 300px;
     height: 300px;
-    clear: both;
     background-color: white;
     text-align: center;
     border: 1px solid #e7e7eb;
     float: left;
+    margin: 10px;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
 }
 
 .img-box img {
@@ -111,6 +112,7 @@ body {
     color: #8d8d8d;
     padding: 8px 10px;
     font-size: 16px;
+    font-weight: normal;
 }
 
 

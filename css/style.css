@@ -33,7 +33,7 @@ body {
     margin-top: -50px;
     height:auto;
     color: #333;
-    background-color: #f2f4f6;
+    background-color: #ffffff;
     position: relative;
     z-index: -3;
 }
@@ -42,7 +42,7 @@ body {
     margin-top: -50px;
     height:auto;
     color: #333;
-    background-color: #ffffff;
+    background-color: #f2f4f6;
     position: relative;
     z-index: -4;
 }

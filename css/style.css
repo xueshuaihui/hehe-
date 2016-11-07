@@ -12,18 +12,19 @@ body {
 #business {
     padding-top:50px;
     margin-top:-50px;
-    height:1000px;
+    height: auto;
     color: #333;
-    background-color: #f2f4f6;
+    background-color: #ffffff;
     position: relative;
     z-index: -1;
+    padding-bottom: 20px;
 }
 #about {
     padding-top:50px;
     margin-top:-50px;
     height:auto;
     color: #333;
-    background-color: #ffffff;
+    background-color: #f2f4f6;
     position: relative;
     z-index: -2;
 }
@@ -115,7 +116,14 @@ body {
     font-weight: normal;
 }
 
+#business_sep {
+    clear: both;
+}
 
+#business hr {
+    border-color: #b2b2b2;
+    border-style: dashed;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

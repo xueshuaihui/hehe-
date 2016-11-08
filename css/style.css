@@ -123,6 +123,62 @@ body {
     border-color: #b2b2b2;
     border-style: dashed;
 }
+
+/*------------------------加入我们------------------------*/
+h1+h4 {
+    color: #999999;
+    font-size: 20px;
+}
+
+.joblist {
+    width: 600px;
+    height: 520px;
+    float: left;
+    margin: 15px;
+    background-color: #f3f3f3;
+}
+
+.joblist>.jobbar {
+    background-color: #ff404d;
+    height:55px;
+    width: auto;
+
+    position: relative;
+    padding: 12px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.joblist>.jobbar>div {
+    width: 35px;
+    float: left;
+}
+
+.joblist>div .icon-bar {
+    background-color: #fff;
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 1px;
+    margin-top: 4px;
+}
+
+.joblist>div .jobtitle {
+    color: white;
+    font-size: 20px;
+    display: inline;
+    margin: auto 10px;
+
+}
+
+.joblist .jobdesc {
+    padding: 5px 15px;
+}
+
+.joblist .jobdesc p {
+    font-size: 16px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -167,5 +223,5 @@ body {
 }
 
 @media (min-width: 1200px) {
-    
+
 }

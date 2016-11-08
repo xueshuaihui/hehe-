@@ -71,7 +71,6 @@ body {
 
     line-height: 30px;
     background: #222222;
-
     background-color: transparent;
 }
 
@@ -89,9 +88,9 @@ body {
     background-color: white;
     text-align: center;
     border: 1px solid #e7e7eb;
-    float: left;
     margin: 10px;
     font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+
 }
 
 .img-box img {
@@ -127,16 +126,46 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (max-width: 979px) {
-    .carousel-inner>.item>img {
-        height: 500px;
-    }
-}
+@media (min-width: 0px) {
 
-
-@media (max-width: 767px) {
     .carousel-inner>.item>img {
         height: 300px;
     }
 
+    #business {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .img-box {
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-inner>.item>img {
+        height: 500px;
+    }
+
+    #business {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .img-box {
+        margin: 10px;
+        float: left;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .carousel-inner>.item>img {
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    
 }

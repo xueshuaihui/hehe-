@@ -133,10 +133,7 @@ h1+h4 {
 }
 
 .joblist {
-    width: 300px;
-    height: 580px;
     float: left;
-    margin: 15px;
     background-color: #f3f3f3;
 }
 
@@ -199,6 +196,12 @@ h1+h4 {
         margin: 10px auto;
         float: none;
     }
+    /*加入我们*/
+    .joblist {
+        width: 99.8%;
+        height: auto;
+        margin: 15px 0.1%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -215,6 +218,12 @@ h1+h4 {
     .img-box {
         margin: 10px;
         float: left;
+    }
+    /*加入我们*/
+    .joblist {
+        width: 300px;
+        height: 580px;
+        margin: 15px;
     }
 
 }

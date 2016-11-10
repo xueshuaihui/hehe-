@@ -102,10 +102,36 @@ body {
     min-height: 70px;
 }
 
+.navbar-inverse .navbar-toggle {
+    border-color: #60a82a
+}
+
 .navbar-nav>li>a {
     /*padding-top: 10px;*/
     /*padding-bottom: 10px;*/
     line-height: 40px;
+}
+
+/*移动菜单按钮*/
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    background-color: #7ebf0c;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover {
+    background-color: #7ebf0c
+}
+
+.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
+    border-color: #60a82a;
 }
 
 /*--------------轮播图---------------*/
@@ -233,6 +259,12 @@ h1+h4 {
 -------------------------------------------------- */
 
 @media (min-width: 0px) {
+    /*菜单*/
+    .navbar-nav>li>a {
+        /*padding-top: 10px;*/
+        /*padding-bottom: 10px;*/
+        line-height: 20px;
+    }
     /*轮播图*/
     .carousel-inner>.item>img {
         height: 300px;
@@ -256,6 +288,12 @@ h1+h4 {
 }
 
 @media (min-width: 768px) {
+    /*菜单*/
+    .navbar-nav>li>a {
+        /*padding-top: 10px;*/
+        /*padding-bottom: 10px;*/
+        line-height: 40px;
+    }
     /*轮播图*/
     .carousel-inner>.item>img {
         height: 500px;

@@ -53,8 +53,59 @@ body {
     margin-bottom: 8px;
 }
 
+/*--------------导航栏---------------*/
+
 #hehe-nav {
     font-size: 18px;
+}
+
+/*菜单高度*/
+.navbar {
+    min-height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-width: 0px 0px 0px 0px;
+}
+
+.navbar-inverse {
+    background-color: white;
+    border-color: #60a82a;
+}
+
+.logo-img {
+    height:50px;
+    margin: 10px 0px;
+    margin-right: 30px;
+}
+
+/*菜单选中背景字颜色*/
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #7ebf0c;
+}
+
+/*菜单字颜色*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #7ebf0c;
+}
+
+/*菜单划过字颜色*/
+.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover {
+    color: #7ebf0c;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 70px;
+}
+
+.navbar-nav>li>a {
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    line-height: 40px;
 }
 
 /*--------------轮播图---------------*/
@@ -138,7 +189,7 @@ h1+h4 {
 }
 
 .joblist>.jobbar {
-    background-color: #222;
+    background-color: #7ebf0c;
     height:55px;
     width: auto;
 

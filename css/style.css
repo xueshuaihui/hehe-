@@ -218,6 +218,18 @@ body {
     border-style: dashed;
 }
 
+/*---------------业务能力-----------------*/
+
+#about .lead {
+    text-indent: 40px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+#about {
+    padding-bottom: 20px;
+}
+
 /*------------------------加入我们------------------------*/
 h1+h4 {
     color: #999999;

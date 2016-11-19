@@ -301,6 +301,7 @@ h1+h4 {
     /*轮播图*/
     .carousel-inner>.item>img {
         height: 300px;
+        width: 100%;
     }
     /*业务能力*/
 
@@ -333,6 +334,7 @@ h1+h4 {
     /*轮播图*/
     .carousel-inner>.item>img {
         height: 500px;
+        width: 100%;
     }
     /*业务能力*/
 
@@ -354,6 +356,7 @@ h1+h4 {
     /*轮播图*/
     .carousel-inner>.item>img {
         height: 500px;
+        width: 100%;
     }
 }
 

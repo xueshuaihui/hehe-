@@ -11,7 +11,7 @@ body {
 }
 #business {
     padding-top:70px;
-    margin-top:-70px;
+    /*margin-top:-70px;*/
     height: auto;
     color: #333;
     background-color: #ffffff;
@@ -74,13 +74,14 @@ body {
 
 /*菜单选中背景字颜色*/
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #7ebf0c;
+    color: #7ebf0c;
+    background-color: #ffffff;
+    border-bottom: 3px solid #7ebf0c;
 }
 
 /*菜单字颜色*/
 .navbar-inverse .navbar-nav>li>a {
-    color: #7ebf0c;
+    color: #000000;
 }
 
 /*菜单划过字颜色*/
@@ -89,8 +90,10 @@ body {
 }
 
 .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 90%;
+    /*max-width: 1334px;*/
+/*    padding-right: 15px;
+    padding-left: 15px;*/
     margin-right: auto;
     margin-left: auto;
     min-height: 70px;
@@ -183,7 +186,6 @@ body {
     text-align: center;
     border: 1px solid #e7e7eb;
     margin: 10px;
-    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
 
 }
 

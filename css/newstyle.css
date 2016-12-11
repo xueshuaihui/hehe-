@@ -126,7 +126,7 @@
 .xsh_fotm>input,.xsh_fotm>textarea{
     width: 80%;
     height: 45px;
-    margin: 10px auto;
+    margin: 20px auto;
     display: block;
     border-radius: 5px;
     border: 1px solid #d6d6d6;
@@ -165,4 +165,19 @@ footer{
         font-size: 12px;
 
     }
+    .xsh_fotm>input,.xsh_fotm>textarea{
+        margin: 10px auto;
+    }
+}
+.navbar{
+    margin-bottom: 0;
+}
+.xsh_nav{
+    padding-top: 0;
+}
+.slide,.swiper-container{
+    margin-top: 70px;
+}
+.swiper-slide>img{
+    width: 100%;
 }

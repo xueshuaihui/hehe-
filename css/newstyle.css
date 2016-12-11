@@ -67,7 +67,7 @@
     margin: 20px auto;
     border: 3px solid #e8eaee;
     padding: 15px 50px;
-    background: url("/images/leftdouhao.png") no-repeat left top,url("/images/rightdouhao.png") no-repeat right bottom;
+    background: url("../images/leftdouhao.png") no-repeat left top,url("../images/rightdouhao.png") no-repeat right bottom;
 }
 .xsh_jobbox{
     margin: 10px 0 20px;
@@ -159,7 +159,7 @@ footer{
         margin: 20px auto;
         border: 0 solid #e8eaee;
         padding: 15px 20px;
-        background: url("/images/leftdouhao.png") no-repeat left top,url("/images/rightdouhao.png") no-repeat right bottom;
+        background: url("../images/leftdouhao.png") no-repeat left top,url("../images/rightdouhao.png") no-repeat right bottom;
     }
     .xsh_fotm>input,.xsh_fotm>textarea{
         font-size: 12px;

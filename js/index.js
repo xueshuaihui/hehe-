@@ -31,7 +31,7 @@ var gsname = $(".gsname");
 var type = $(".type");
 var money= $(".money");
 var jianjie = $(".jianjie");
-submit.on("tap",function(){
+submit.on("click",function(){
     $.ajax({
         url:"/feedback.php",
         data:{name:name.val(),email:email.val(),tel:tel.val(),gsname:gsname.val(),type:type.val(),money:money.val(),jianjie:jianjie.val()},

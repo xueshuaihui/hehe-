@@ -168,6 +168,9 @@ footer{
     .xsh_fotm>input,.xsh_fotm>textarea{
         margin: 10px auto;
     }
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
 }
 .navbar{
     margin-bottom: 0;

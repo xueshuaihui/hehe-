@@ -64,8 +64,10 @@ header{margin-top: 30px;overflow: hidden;}
 .xsh_wb_title,.xsh_wb_text{color: #333333;font-size: 14px;line-height: 32px;}
 .xsh_wb_text>a{color: #999999;}
 .xsh_contact_box{max-width: 367px;margin: auto;}
-.xsh_form_box{width: 355px;height: 485px;margin: auto;}
-.xsh_form_box>input,.xsh_form_box>textarea{display: block;width: 350px;height: 45px;border: 1px solid #d6d6d6;border-radius: 5px;margin-bottom: 10px;padding-left: 1em;font-size: 14px;font-family: 'Microsoft YaHei', '微软雅黑';}
+.xsh_form_box{width: 355px;height: 535px;margin: auto;}
+.xsh_form_box>input,.xsh_form_box>textarea,.xsh_form_box>select,.xsh_form_box>div{display: block;width: 350px;height: 45px;border: 1px solid #d6d6d6;border-radius: 5px;margin-bottom: 10px;padding-left: 1em;font-size: 14px;font-family: 'Microsoft YaHei', '微软雅黑';}
+.form_checkbox{line-height: 45px;}
+.form_checkbox input{margin: 0 5px;}
 .xsh_form_box>textarea{width: 350px;height: 95px;}
 .submit{background: #88c028;color: #ffffff;font-size: 18px;}
 input::-webkit-input-placeholder{color: #666666;}

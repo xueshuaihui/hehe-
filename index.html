@@ -344,8 +344,41 @@
                         <input type="email" placeholder="邮箱" required class="email">
                         <input type="tel" placeholder="电话号码" required class="tel">
                         <input type="text" placeholder="公司名称" required class="gsname">
-                        <input type="text" placeholder="项目类型" required class="type">
-                        <input type="text" placeholder="投入资金" required class="money">
+                        <!--<input type="text" placeholder="项目类型" required class="type">-->
+                        <select name="type" id="type" class="type" required>
+                            <option value="项目类型">项目类型</option>
+                            <option value="O2O">O2O</option>
+                            <option value="电商">电商</option>
+                            <option value="金融">金融</option>
+                            <option value="社交">社交</option>
+                            <option value="社区">社区</option>
+                            <option value="医疗">医疗</option>
+                            <option value="健康">健康</option>
+                            <option value="视频">视频</option>
+                            <option value="直播">直播</option>
+                            <option value="门户">门户</option>
+                            <option value="资讯">资讯</option>
+                            <option value="搜索">搜索</option>
+                            <option value="即时通讯">即时通讯</option>
+                            <option value="LBS">LBS</option>
+                        </select>
+                        <select name="pttype" id="pttype" class="pttype" required size="1" multiple="multiple" >
+                            <option value="项目类型">平台类型</option>
+                            <option value="app">app</option>
+                            <option value="网站">网站</option>
+                            <option value="其他">其他</option>
+                        </select>
+                        <!--<div class="form_checkbox"><span>平台类型: </span><label><input name="pttype" type="checkbox" value="app" />app</label><label><input name="pttype" type="checkbox" value="网站" />网站</label><label><input name="pttype" type="checkbox" value="其他" />其他</label> </div>-->
+                        <!--<input type="text" placeholder="投入资金" required class="money">-->
+                        <select name="money" id="money" class="money" required>
+                            <option value="投入金额">投入金额</option>
+                            <option value="10万左右">10万左右</option>
+                            <option value="15-30万">15-30万</option>
+                            <option value="30-60万">30-60万</option>
+                            <option value="60-100万">60-100万</option>
+                            <option value="大于100万">大于100万</option>
+                            <option value="不确定">不确定</option>
+                        </select>
                         <textarea name="" id="" cols="30" rows="10" placeholder="项目简介，愿意分享的股份，目前已有的资源" value="" required class="jianjie"></textarea>
                         <input type="submit" value="确定" class="submit">
                     </form>

@@ -25,7 +25,7 @@ window.onscroll = function(){
             nav_hot.css({"left":left});
             if(width<=450){
                 var top = nava.children("li").position().top;
-                nav_hot.css({"top":top+40});
+                nav_hot.css({"top":top+40,left:"50%","-webkit-transform":"translateX(-50%)","-moz-transform":"translateX(-50%)","-ms-transform":"translateX(-50%)","-o-transform":"translateX(-50%)","transform":"translateX(-50%)"});
             }
         }
     })
@@ -47,7 +47,7 @@ glyphicon.on("click",function(){
     nav_hot.css({top:"45px"});
     nav_text.on("click","a>li",function(){
         var top = $(this).position().top;
-        nav_hot.css({"top":top+40});
+        nav_hot.css({"top":top+40,left:"50%","-webkit-transform":"translateX(-50%)","-moz-transform":"translateX(-50%)","-ms-transform":"translateX(-50%)","-o-transform":"translateX(-50%)","transform":"translateX(-50%)"});
     })
 })
 function placeholderSupport() {

@@ -1,23 +1,32 @@
 var nav_text = $(".xsh_nav_text");
 var nav_hot = $(".xsh_nav_hot");
 nav_text.on("click","a>li",function(){
+    nav_text.children("a").removeClass("xsh_nav_hot_color");
+    $(this).parents("a").addClass("xsh_nav_hot_color");
     var left = $(this).position().left;
     nav_hot.css({"left":left});
 })
 var home = $("#home");
 var divs = $("body>div");
 var height = $(window).height();
+var width = $(window).width();
 window.onscroll = function(){
     divs.each(function(){
         var that = $(this);
         var top = that.offset().top;
         var scrolltop = $(window).scrollTop();
         var offsettop = top-scrolltop;
-        if( offsettop>0 && offsettop <=height/3){
+        if( offsettop>0 && offsettop <=150){
             var id = that.attr("id");
             var nava = nav_text.children("a[href*="+id+"]");
+            nav_text.children("a").removeClass("xsh_nav_hot_color");
+            nava.addClass("xsh_nav_hot_color");
             var left = nava.children("li").position().left;
             nav_hot.css({"left":left});
+            if(width<=450){
+                var top = nava.children("li").position().top;
+                nav_hot.css({"top":top+40});
+            }
         }
     })
 }
@@ -30,7 +39,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev'
 })
-var glyphicon = $(".glyphicon-align-justify");
+var glyphicon = $(".navbar-toggle");
 var nav_hidden = $(".xsh_nav_hidden");
 glyphicon.on("click",function(){
     nav_hidden.toggleClass("hidden-xs hidden-sm").toggleClass("col-xs-12").css({padding:"0","box-shadow":"0 5px 5px #999999"});

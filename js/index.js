@@ -30,7 +30,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev'
 })
-var glyphicon = $(".glyphicon-list");
+var glyphicon = $(".glyphicon-align-justify");
 var nav_hidden = $(".xsh_nav_hidden");
 glyphicon.on("click",function(){
     nav_hidden.toggleClass("hidden-xs hidden-sm").toggleClass("col-xs-12").css({padding:"0","box-shadow":"0 5px 5px #999999"});

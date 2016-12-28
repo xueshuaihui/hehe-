@@ -57,6 +57,22 @@ $(function(){
             }
         }).blur();
     };
+    function footposition(){
+        var height = $(window).height();
+        var news_list_box = $(".xsh_news_list_box");
+        var list_height = news_list_box.height()
+        var footers = $("footer");
+        var tops = footers.position().top;
+        if(list_height < height-215 ){
+            footers.css({position:"absolute",bottom:"0"})
+        }else{
+            footers.css({position:"static","margin-top": "35px"})
+        }
+    }
+    footposition();
+    window.onresize = function(){
+        footposition();
+    }
 })
 var form_box = $(".xsh_form_box");
 var submit = $(".submit");
